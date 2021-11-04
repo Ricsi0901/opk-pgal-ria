@@ -1,0 +1,15 @@
+@charset "utf-8";
+main{
+    width: 80%;
+    margin: auto;
+}
+section{
+    display: grid;
+grid-template-columns: 100px auto 100px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+}
+img{width: 100%;}
